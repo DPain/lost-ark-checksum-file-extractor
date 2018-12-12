@@ -8,7 +8,7 @@ Extracts altered files based off its MD5 checksum by reading a checksum report c
 `python run.py "D:\Games\Games\LOSTARK" "C:\LOSTARK1.0.3.4,46.md5"`
 
 ### Dependencies: ###
-	* Python 3
+	* Python 3.7
 
 ### Who do I talk to? ###
 	* D_Pain - 

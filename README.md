@@ -5,7 +5,10 @@ Extracts altered files based off its MD5 checksum by reading a checksum report c
 0.0.1
 
 ### How do I run it? ###
-`python run.py "D:\Games\Games\LOSTARK" "C:\LOSTARK1.0.3.4,46.md5"`
+```
+python run.py <game directory> <old version MD5 directory> <new version MD5 directory>
+python run.py "D:\Games\Games\LOSTARK" "C:\LOSTARK1.0.3.4,46.md5" "C:\LOSTARK1.1.0.2,91.md5"
+```
 
 ### Dependencies: ###
 	* Python 3.7

@@ -21,12 +21,12 @@ python run.py "D:\Games\Games\LOSTARK" "C:\LOSTARK1.0.3.4,46.md5"
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("Incorrect number of parameters!")
         exit(1)
 
-    game_dir = sys.argv[0]
-    checksum_dir = sys.argv[1]
+    game_dir = sys.argv[1]
+    checksum_dir = sys.argv[2]
 
     if game_dir[-1] in ["/", "\\"]:
         game_dir = game_dir[:-1]
